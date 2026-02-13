@@ -1,8 +1,0 @@
-name = "Imchome"
-main = "./out/index.html"  # 或者根据你的入口文件调整
-compatibility_date = "2026-02-13"
-
-# 关键配置：指定静态资源目录为 out
-[site]
-bucket = "./out"  # 这里指向你的编译输出目录
-entry-point = "workers-site"
